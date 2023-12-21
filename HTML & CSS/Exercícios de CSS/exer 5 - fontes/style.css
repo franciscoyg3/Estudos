@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'gang';
+    src: url('angel_wish/Angel\ wish.otf') format('opentype'), url('angel_wish/Angel\ wish.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de Formatos:
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+body{
+    background-color: rgb(126, 180, 228);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1,h2{
+    color: rgb(56, 95, 153);
+    text-shadow: 2px 1px 2px rgb(20, 51, 97);
+}
+
+p{
+    font-family: 'gang',sans-serif;
+    font-size: 2em;
+}
+
+div{
+    background-color: rgb(220, 220, 247);
+    background-attachment: fixed;
+    border: 1px solid black;
+}

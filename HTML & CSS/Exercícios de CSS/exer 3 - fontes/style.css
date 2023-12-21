@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+h1{
+    font-style: italic;
+    text-align: center;
+    color: #1E5CE3;
+    text-shadow: 2px 1px 2px #1743a1;
+}
+
+p{
+    font-weight: 550;
+    text-align: left;
+}
+
+div{
+    text-align: center;
+    border: 1px solid black;
+   border-radius: 2px;
+   background-color: #7e9fe6;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 27px;
+    color: #1743a1;
+    text-shadow: 2px 1px 2px #1743a1;
+
+    /* Shorthand 
+    font:Font style ->Font weight->Font size ->Font family;
+    
+    Forma full:
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+    forma short:
+    font: italic bold 19px sans-serif;
+    */
+}
+
+img{
+    
+    border-radius: 1cm;
+    align-items: center;
+}
+
+body{
+    /* 
+    Fontes absolutas
+    cm, mm, in, px, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente é igual à 1mm
+    */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #66E0E6;
+    font-size: 18px ;
+}

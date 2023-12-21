@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+    background-color:#ffff;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    background-color: #464646;
+    padding: 10px 20px 10px 20px;
+}
+
+h1{
+    color: white;
+    font-family: serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+}
+
+main{
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+.title{
+    text-align: center;
+    
+}
+.artigo{
+    text-indent: 20px;
+    background-color: white;
+    border: 1px solid rgb(80, 78, 78);
+    border-radius: 10px;
+    
+}
+
+aside{
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+#foot{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+}
+#pp{
+    background-color: white;
+    padding: 5px;
+}
+
+img{
+    height: 30%;
+    width: 100%;
+    border-radius: 5px;
+}
+#fundo{
+    background:url('img/ermenegildo-zegna.webp');
+    height:400px;
+    width: 100vw;
+    background-size: cover;
+}
